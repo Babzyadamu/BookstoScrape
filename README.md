@@ -40,5 +40,14 @@ import BeautifulSoup
 # Implementation of the ETL process:
 
 - Extract relevant and specific data from the source website;
+
+## 📁 Project Structure
+
+
+
+
+
+
+
 - Transform, filter and clean data;
 - Load data into searchable and retrievable files.
