@@ -5,12 +5,8 @@
 OpenClassrooms Python Developer Project: Use Python Basics for Market Analysis
 
 ### **Project's Scenario:**
-This project is meant to create a web scraper with Python on fictional web site called "Book to Scrape". This website contains information about books per different categories and the idea of this project is to extract the information of each book available on the website.
-
-<img src="assets/webpage_example.png"
-     alt="Markdown Monster icon" style="border-radius:5px"/>
-
-After scraping the website, we can export the data into Json, csv, txt files or into a database. In this case, I stored it on a csv file.
+You are a marketing analyst at Books Online, a major online used bookstore. As part of your role, you manually keep track of used book prices on rival websites, but you can’t keep up. There are too many books and too many online bookshops! So, you and your team have decided to use Python to build a monitoring system that extracts pricing information from other online bookshops.
+Your team leader, Sam, has asked you to build a beta version of the monitoring system to track book prices at Books to Scrape, an online book retailer. For the beta version, the system won’t actually ‘monitor’ retailer book prices through time. Instead, it will just be an application that can be run on-demand to extract prices from Books to Scrape.
 &nbsp;
 ### **Requirements:**
 &nbsp;
