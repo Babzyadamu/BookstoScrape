@@ -2,7 +2,9 @@
 ![Books Online](BooksOnLine.jpg)
 
 # About this Project
-OpenClassrooms Python Developer Project: Use Python Basics for Market Analysis
+OpenClassrooms Python Developer Project: Use Python Basics for Market Analysis.
+A simple Python ETL pipeline that scrapes book data from Books to Scrape, extracts prices and metadata, downloads book cover images, and packages everything into a ZIP file.
+This project is ideal for beginners learning web scraping, ETL workflows, and Python project structure.
 
 ### **Project's Scenario:**
 ![Books to Scrape](Bookstoscrape.jpg)
@@ -22,8 +24,18 @@ pip3 install beautifulSoup4
 import BeautifulSoup
 ```
 
-# Objectives
-Scraping of books.toscrape.com with BeautifulSoup4 and Requests, export data to .csv files and download cover images to the "exports" folder.
+# Features
+- Scrapes all book titles, prices, ratings, availability, categories
+
+- Extracts product page URLs and image URLs
+
+- Downloads all book cover images
+
+- Saves structured data into a CSV file
+
+- Packages all extracted data into a ZIP file
+
+- Fully modular code (scraper, utils, pipeline)
 
 # Implementation of the ETL process:
 
