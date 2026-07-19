@@ -53,8 +53,13 @@ from pipeline import run_pipeline
 run_pipeline()
 ```
 
+## Final Output
 
+Downloaded result will appear in foldrr below
 
+```python
+/content/extracted_data/
+```
 
 
 
