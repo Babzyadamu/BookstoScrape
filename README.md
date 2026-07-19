@@ -43,6 +43,18 @@ import BeautifulSoup
 
 ## 📁 Project Structure
 
+## How to Run in Jupyter Notebook
+
+```python
+import sys
+sys.path.append(r"C:/Users/<your-user>/books-monitoring/src")
+
+from pipeline import run_pipeline
+run_pipeline()
+```
+
+
+
 
 
 
