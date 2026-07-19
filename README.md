@@ -24,3 +24,12 @@ pip3 install beautifulSoup4
 ```python
 import BeautifulSoup
 ```
+
+# Objectives
+Scraping of books.toscrape.com with BeautifulSoup4 and Requests, export data to .csv files and download cover images to the "exports" folder.
+
+# Implementation of the ETL process:
+
+- Extract relevant and specific data from the source website;
+- Transform, filter and clean data;
+- Load data into searchable and retrievable files.
