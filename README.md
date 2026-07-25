@@ -25,17 +25,19 @@ import BeautifulSoup
 ```
 
 # Features
-- Scrapes all book titles, prices, ratings, availability, categories
+It extracts book data from the website **BooksToScrape.com**, including:
 
-- Extracts product page URLs and image URLs
+- Product page URL  
+- UPC  
+- Title  
+- Prices (incl./excl. tax)  
+- Availability  
+- Description  
+- Category  
+- Review rating  
+- Image URL  
+- Downloaded image file  
 
-- Downloads all book cover images
-
-- Saves structured data into a CSV file
-
-- Packages all extracted data into a ZIP file
-
-- Fully modular code (scraper, utils, pipeline)
 
 # Implementation of the ETL process:
 
@@ -55,7 +57,15 @@ run_pipeline()
 
 ## Final Output
 
-Downloaded result will appear in foldrr below
+The final script (Updated Scraper Phase 4) automatically:
+
+1. Extracts all book categories  
+2. Scrapes all books in each category  
+3. Handles pagination  
+4. Downloads all book images  
+5. Saves one CSV file per category  
+6. Stores images in category‑specific folders  
+
 
 ```python
 /content/extracted_data/
