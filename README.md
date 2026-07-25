@@ -43,17 +43,22 @@ It extracts book data from the website **BooksToScrape.com**, including:
 
 - Extract relevant and specific data from the source website;
 
-## 📁 Project Structure
-
 ## How to Run in Jupyter Notebook
 
-```python
-import sys
-sys.path.append(r"C:/Users/<your-user>/books-monitoring/src")
+**Important:**  
+Extracted CSV files and images are **not included** in this repository.  
+They are provided separately in a ZIP file as required.
 
-from pipeline import run_pipeline
-run_pipeline()
-```
+---
+
+## 🔧 Installation Instructions
+
+### 1. Create a virtual environment
+
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
 
 ## Final Output
 
